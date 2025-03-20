@@ -17,6 +17,7 @@ body {
   font-weight: 700;
   margin-bottom: 2.5rem;
 }
+/* styling the container */
 .quote-container {
   width: 640px;
   background-color: rgba(247, 244, 244, 0.5);
@@ -27,7 +28,7 @@ body {
   border-top-left-radius: 200px 12px;
   border-top-right-radius: 12px 210px;
 }
-.quote-box {
+#quote-box {
   margin-bottom: 3rem;
 }
 #author {
@@ -40,6 +41,7 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+/* styling the buttons */
 .buttons {
   padding: 1rem;
   background-image: linear-gradient(
@@ -60,6 +62,7 @@ body {
   text-decoration: none;
 }
 
+/* implementing media queries to make the website device responsive */
 @media only screen and (max-width: 600px) {
   .heading {
     text-align: center;
